@@ -10,6 +10,7 @@ float force(int m1 , int m2, float r)
     return f;
 
 }
+
 int main()
 {
     int mass1, mass2;
@@ -24,5 +25,4 @@ int main()
 
     printf("\nGravitational force  : %.15f Newton.\n" , force(mass1, mass2, distance));
     return 0;
-
 }
